@@ -119,7 +119,7 @@ span {
 
 .meinfo h2 {
     font-size: 3em;
-    color: white;
+    
 }
 
 
@@ -145,6 +145,7 @@ span {
 
 .portafolio-hobbie h2 {
     font-size: 3em;
+    color: white;
 }
 
 .portafolio .container {
@@ -162,7 +163,7 @@ span {
     height: 320px;
     background-color:antiquewhite;
     margin: 2em;
-    border: solid whitep 2px;
+    border-radius: 10px;
 }
 
 .cardimg {
@@ -225,8 +226,6 @@ span {
 .descarga:hover {
     background-color: #0d486a;
     transition: ease-in .4s;
-
-
 }
 
 .botonproyectos {
@@ -234,8 +233,6 @@ span {
     width: 100%;
     justify-content: center;
     margin-top: 10px;
-
-
 }
 
 .cardimg2 {
@@ -251,9 +248,9 @@ span {
 }
 
 .conocimientos {
-    background-color:  rgb(33, 42, 156);
-    border: none;
-    text-align: center;
+    text-align: start;
+    background-color: rgb(33, 42, 156); 
+    color: white;
 }
 
 .container-contacto {
@@ -323,4 +320,9 @@ padding: 0%;
     color: white;
     text-align: center;
     font-weight: 900;
+    }
+
+    .acerca{
+        background-color: rgb(33, 42, 156);
+        color: white;
     }
