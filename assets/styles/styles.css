@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: aquamarine;
+background-color: rgb(33, 42, 156);
 }
 
 .wrapper,
 .portafolio {
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
+    background-color:  rgb(33, 42, 156);
     color: #0d486a;
 }
 
@@ -29,7 +29,8 @@ background-color: aquamarine;
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1em
+    padding: 1em;
+    color: white
 }
 
 .menu li {
@@ -118,9 +119,8 @@ span {
 
 .meinfo h2 {
     font-size: 3em;
-    color: #0d486a;
+    
 }
-
 
 
 .meinfo p {
@@ -131,7 +131,7 @@ span {
 .divider {
     height: 4px;
     width: 60px;
-    background-color: aquamarine;
+    background-color:  rgb(33, 42, 156);
     margin-top: 2px;
     margin-bottom: 2em
 }
@@ -145,6 +145,7 @@ span {
 
 .portafolio-hobbie h2 {
     font-size: 3em;
+    color: white;
 }
 
 .portafolio .container {
@@ -162,7 +163,7 @@ span {
     height: 320px;
     background-color:antiquewhite;
     margin: 2em;
-    border: solid whitep 2px;
+    border-radius: 10px;
 }
 
 .cardimg {
@@ -225,8 +226,6 @@ span {
 .descarga:hover {
     background-color: #0d486a;
     transition: ease-in .4s;
-
-
 }
 
 .botonproyectos {
@@ -234,8 +233,6 @@ span {
     width: 100%;
     justify-content: center;
     margin-top: 10px;
-
-
 }
 
 .cardimg2 {
@@ -251,9 +248,9 @@ span {
 }
 
 .conocimientos {
-    background-color: aquamarine;
-    border: none;
-    text-align: center;
+    text-align: start;
+    background-color: rgb(33, 42, 156); 
+    color: white;
 }
 
 .container-contacto {
@@ -262,7 +259,7 @@ span {
 
 }
 .contacto {
-    background-color:#0d486a
+    background-color:  rgb(33, 42, 156);
 }
 .contacto2 h2 {
     font-size: 3em;
@@ -323,4 +320,9 @@ padding: 0%;
     color: white;
     text-align: center;
     font-weight: 900;
+    }
+
+    .acerca{
+        background-color: rgb(33, 42, 156);
+        color: white;
     }
