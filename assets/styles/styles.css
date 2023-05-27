@@ -180,7 +180,11 @@ span {
     padding: 20px;
     justify-content: center;
     display: flex;
+    height: 70px; /*ajuste de altura para el titulo*/
+    padding: 10px; /*ajuste de padding para el titulo*/
 }
+
+/* asd */
 
 .proyectoslinks {
     display: flex;
